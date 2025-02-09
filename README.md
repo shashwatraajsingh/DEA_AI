@@ -16,7 +16,7 @@ DEA-AI is a decentralized AI chatbot designed for blockchain-based interactions.
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/dea-ai-bot.git
+git clone https://github.com/shashwatraajsingh/dea-ai-bot.git
 cd dea-ai-bot
 ```
 
