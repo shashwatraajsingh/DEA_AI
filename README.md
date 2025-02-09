@@ -103,5 +103,4 @@ Feel free to contribute! Open an issue or submit a PR. Let's build the future of
 ## 📧 Contact
 👤 **Shashwat Singh**  
 📧 Email: shashwatrajsing@gmail.com
-🔗 GitHub: [yourusername](https://github.com/shashwatraajsingh)  
-
+🔗 GitHub: [shashwatraajsingh](https://github.com/shashwatraajsingh)  
