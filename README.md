@@ -102,6 +102,6 @@ Feel free to contribute! Open an issue or submit a PR. Let's build the future of
 
 ## 📧 Contact
 👤 **Shashwat Singh**  
-📧 Email: your-email@example.com  
-🔗 GitHub: [yourusername](https://github.com/yourusername)  
+📧 Email: shashwatrajsing@gmail.com
+🔗 GitHub: [yourusername](https://github.com/shashwatraajsingh)  
 
