@@ -4,7 +4,7 @@
 DEA-AI is a decentralized AI chatbot designed for blockchain-based interactions. It can answer queries, assist with cryptocurrency transactions, and provide AI-driven insights. The bot is deployed on **Telegram** and **Discord**, and is hosted using **Railway/Vercel**.
 
 ## 🚀 Features
-- ✅ **Custom AI Responses** (No mention of Gemini)
+- ✅ **Custom AI Responses** 
 - ✅ **Wallet Balance Checking**
 - ✅ **Basic Blockchain Transactions (ETH)**
 - ✅ **Works on Telegram & Discord**
