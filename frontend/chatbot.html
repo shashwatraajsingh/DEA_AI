@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEA-AI Chatbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Top Bar -->
+        <div class="chat-header">
+            <div class="header-left">DEA-AI</div>
+            <div class="header-right">
+                <span id="connection-status"> Connected</span>
+                <a href="docs/docs.html" target="_blank" class="docs-link">Docs</a>
+            </div>
+        </div>
+
+       
+        <div id="chatbox"></div>
+
+        
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Message DEA-AI..." onfocus="expandInput()" onblur="shrinkInput()"/>
+            <div class="button">
+            <button onclick="sendMessage()">➤</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
