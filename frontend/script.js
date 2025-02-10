@@ -1,3 +1,6 @@
+
+
+
 document.addEventListener("DOMContentLoaded", async () => {
     const connectButton = document.getElementById("connectWallet");
     const walletDisplay = document.getElementById("walletAddress");
@@ -31,12 +34,16 @@ document.addEventListener("DOMContentLoaded", async () => {
             });
         
             const data = await response.json();
-            chatbox.innerHTML += `<p><b>AI:</b> ${data.reply}</p>`;
+
+           
+            let formattedReply = data.reply
+                .replace(/\n/g, "<br>") // Convert new lines to HTML line breaks
+                .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>") // Convert **bold** to <strong>
+                .replace(/\*(.*?)\*/g, "<em>$1</em>"); // Convert *italic* to <em>
+
+            chatbox.innerHTML += `<p><b>AI:</b> ${formattedReply}</p>`;
         }
-        
 
         window.sendMessage = sendMessage;
     }
 });
-
-
