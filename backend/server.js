@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use("/api", routes); // Load API routes
+app.use("/api", routes); // this loads the api routes
 
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`);

@@ -14,7 +14,7 @@ body {
 
   
   
-/* Chat Container */
+
 .chat-container {
     width: 70%;
     height: 85vh;
@@ -135,13 +135,13 @@ body {
     
 }
 
-/* Input Field Expands on Focus */
+
 #userInput:focus {
     border: 1px solid #007bff;
     box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
 }
 
-/* Send Button */
+
 button {
     padding: 10px 14px;
     background: #007bff;
@@ -154,7 +154,7 @@ button {
     left: 0%;
 }
 
-/* Hover Effect */
+
 button:hover {
     background: #0056b3;
 }

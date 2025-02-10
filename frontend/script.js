@@ -7,14 +7,14 @@ document.addEventListener("DOMContentLoaded", async () => {
             if (window.ethereum) {
                 const accounts = await window.ethereum.request({ method: "eth_requestAccounts" });
                 localStorage.setItem("walletAddress", accounts[0]);
-                window.location.href = "chatbot.html";  // Redirect to chatbot page
+                window.location.href = "chatbot.html";  // Redirect to chatbot page(chatbot.html)
             } else {
-                alert("MetaMask is not installed!");
+                alert("MetaMask is not installed!"); 
             }
         });
     }
 
-    // Chatbot functionality
+    // Chatbot functionality DEA-AI
     if (window.location.pathname.includes("chatbot.html")) {
         const chatbox = document.getElementById("chatbox");
         const userInput = document.getElementById("userInput");

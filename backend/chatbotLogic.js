@@ -1,34 +1,4 @@
-// const axios = require("axios");
 
-// function delay(ms) {
-//   return new Promise(resolve => setTimeout(resolve, ms));
-// }
-
-// async function processChat(message) {
-//   try {
-//     await delay(1000); // delay rate limit ko prevent krne ke liye
-
-//     const response = await axios.post(
-//       "https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent",
-//       {
-//         contents: [{ parts: [{ text: message }] }]
-//       },
-//       {
-//         headers: {
-//           "Content-Type": "application/json",
-//           Authorization: `Bearer ${process.env.GOOGLE_API_KEY}`
-//         }
-//       }
-//     );
-
-//     return response.data;
-//   } catch (error) {
-//     console.error("Chatbot API Error:", error.response ? error.response.data : error.message);
-//     return { error: "API request failed. Please try again later." };
-//   }
-// }
-
-// module.exports = { processChat };
 
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
